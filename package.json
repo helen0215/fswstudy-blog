@@ -10,7 +10,6 @@
     "compile": "tsc",
     "fix": "gts fix",
     "start": "node build/src/index.js",
-    "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run lint",
     "gcloud:build": "gcloud builds submit --tag asia-northeast3-docker.pkg.dev/yddubugi-blog/cloud-run-source-deploy/yddubugi-blog",
